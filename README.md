@@ -112,7 +112,7 @@ if (_config->seccomp_rule_name != NULL) {
 有两个方向
 
 - 更换Windows平台，使用操作系统级的限制应可以解决类似安全问题，但代码丢失跨平台性。
-- 使用customized compiler，在编译期就让这些漏洞不可能发生，但需对每种语言的编译器都进行响应调整。
+- 使用customized compiler，在编译期就让这些漏洞不可能发生，但需对每种语言的编译器都进行相应调整。
 
 
 
